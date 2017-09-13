@@ -1,0 +1,52 @@
+body{
+	background: url(../img/bg.jpg) repeat;
+}
+.fangding{
+	height: 28px;
+	background: url(../img/topbg.jpg) repeat-x;
+}
+.overall{
+	height: 900px;
+	background: url(../img/footside.jpg) bottom center no-repeat;
+}
+header{
+	height: 210px;
+	background: url(../img/headerbg.jpg) right bottom no-repeat;
+}
+header>div{
+	position: relative;
+	width: 1200px;
+	height: 210px;
+	margin: 0 auto;
+}
+header img{
+	position: absolute;
+	top: 10px;
+	right: 50px;
+	width: auto;
+	height: 90px;
+}
+header nav{
+	position: relative;
+	height: 210px;
+	background: url(../img/nav_bg.png) no-repeat;
+	background-position-x: 40px;
+	background-position-y: -80px;
+}
+header ul{
+	position: absolute;
+	top: 123px;
+	left: 195px;
+}
+header li{
+	float: left;
+	padding: 0 15px;
+	color: #fff;
+	font-family: "华文楷体";
+	font-size: 18px;
+	font-weight: 600;
+}
+header li a{
+	text-decoration: none;
+	color: #fff;
+}
